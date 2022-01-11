@@ -30,6 +30,7 @@ public class ListView extends VerticalLayout {
     private CrmService service;
 
     public ListView(CrmService service) {
+        this.service = service;
         addClassName("List-view");
         setSizeFull();
 
