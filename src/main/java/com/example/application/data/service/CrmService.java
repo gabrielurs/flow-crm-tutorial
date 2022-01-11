@@ -12,7 +12,7 @@ import java.util.List;
 
 
 @Service
-public class + {
+public class CrmService {
     private final ContactRepository contactRepository;
     private final CompanyRepository companyRepository;
     private final StatusRepository statusRepository;
